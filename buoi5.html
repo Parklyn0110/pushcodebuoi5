@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a=5
+        let b=7
+        if(a>b){
+            console.log(a+">"+b)  
+        }
+        else{
+                console.log(a+"khong lon hon"+b)
+            }
+    //Kiem tra a la so duong
+            if(a>0){
+                console.log(a+"la so duong")
+            }
+         else{
+            console.log(a+"khong la so duong")
+         }
+     //Kiem tra a bang b hay khong
+     if(a==b){
+        console.log("a=b")
+     }
+     else{
+        console.log("a khac b")
+     }
+     //Kiem tra a va b dong thoi lon hon 0
+     if(a>0 && b>0){
+        console.log("a va b cung lon hon 0")
+     }
+     else{
+        console.log("a va b khong dong thoi lon hon 0")
+     }
+// Kiem tra a la duong, la am hay 0
+if(a>0){
+    console.log("a duong")
+}
+else if(a<0){
+    console.log("a am")
+}
+else{
+    console.log("a la so 0")
+}
+// Kiem tra a co 1 chu so, 2 chu so, hay >=4 chu so
+if(a<10){
+    console.log("a co 1 chu so")
+}
+else if(a<100){
+    console.log("a co 2 chu so")
+}
+else if(a<1000){
+    console.log("a co 3 chu so")
+}
+else{
+    console.log("a co 4 chu so tro len")
+}
+// Gia su a la 1 thang trong nam, cho biet thang do co bao nhieu ngay
+// thang 28/29: thang 2
+// thang 30 ngay: thang 4, 6, 9, 11
+// thang 31 ngay: thang 1,3,5,7,8,10,12
+if(a==2){
+    console.log("thang "+a+" co 2, 29 ngay")
+}
+else if(a==4||a==6||a==9||a==11){
+    console.log("thang "+a+" co 30 ngay")
+}
+else{
+    console.log("thang "+a+" co 31 ngay")
+}
+    </script>
+   
+    
+</body>
+</html>
